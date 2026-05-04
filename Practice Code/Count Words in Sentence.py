@@ -1,0 +1,7 @@
+sentence=input("Enter a sentence: ")
+words=sentence.split()
+word_count=len(words)
+print(f"The number of words in the sentence is: {word_count}")
+print(f"The number of characters in the sentence is: {len(sentence)}")
+print(f"The number of characters excluding spaces is: {len(sentence.replace(' ', ''))}")
+print(f"The number of times 'the' appears in the sentence is: {sentence.lower().count('the')}")
